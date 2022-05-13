@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connect Four</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="GameName">
+                <h1>Connect Four</h1>
+            </div>   
+            <div class="UserData">
+                <div class="username">
+                    <div class="usernametxt"> User Name</div>
+                    <div class="usernamedata">
+                        <input id="user1" type="text">
+                    </div>
+                </div>
+                
+                <div class="Options">
+                    <div class="ModeOptions">
+                        <h3> Game mode</h3>
+                        <select id="mood" name=" Game mode">
+                            <option value="easy"> easy</option>
+                            <option value="hard"> hard</option>
+                        </select>
+                    </div>
+
+
+                    <div class="UsersOptions">
+                        <h3>Play With</h3> 
+                        <select id="vs" name=" Play With">
+                            <option value="Computer"> Computer</option>
+                            <option value="Player"> Other Player</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="Buttons">
+                <div class="play">Start</div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
