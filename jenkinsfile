@@ -1,14 +1,5 @@
-pipeline{
-    aget any
-    stages {
-    stage('hello')
-    {
-      steps{
-        git 'https://github.com/AmlAbdellatif/scriped-pipline'
+node {
+    stage('Hello') {
         sh 'ls'
-      }
     }
     }
-
-
-}
